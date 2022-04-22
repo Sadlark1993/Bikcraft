@@ -1,0 +1,188 @@
+/*Produtos*/
+.produtos-bg {
+  background-image: url("../img/bg-produtos.jpg");
+}
+
+/*Lista de Produtos*/
+
+.bloco1 {
+  margin-bottom: 20px;
+}
+
+.bloco1 h2 {
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: 150px;
+  left: 211px;
+}
+
+.bloco1 h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 8px auto 10px auto;
+}
+
+.bloco1 h2:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 10px auto 8px auto;
+}
+
+.bloco2 {
+  background-color: #000;
+  height: 340px;
+  padding-top: 98px;
+}
+
+.bloco2 img {
+  margin: 0 auto;
+}
+
+.bloco4 {
+  background-color: black;
+  text-align: left;
+  height: 291px;
+}
+
+.bloco4 p {
+  color: white;
+  font-size: 18px;
+  margin: 30px 40px;
+  text-indent: 1.5em;
+}
+
+.bloco4 ul {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.bloco4 ul li {
+  background-color: #fec63e;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  width: 228.5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bloco4 ul li:nth-child(1),
+.bloco4 ul li:nth-child(2) {
+  margin-bottom: 3px;
+}
+
+.bloco4 ul li:nth-child(even) {
+  margin-left: 3px;
+}
+
+.lista_produtos {
+  margin-bottom: 60px;
+}
+
+.selecionado {
+  color: white;
+}
+
+/*Orcamento*/
+
+.orcamento {
+  background-color: #000;
+  padding: 40px 0;
+}
+
+.orcamento .subtitulo {
+  color: #fec63e;
+}
+
+.orcamento .subtitulo:after {
+  background-color: #fec63e;
+}
+
+.orcamento label {
+  color: #fff;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.orcamento input {
+  border-color: #fec63e;
+  border-width: 4px;
+  border-style: solid;
+  outline: none;
+  width: 100%;
+  background: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+
+.orcamento textarea {
+  border-color: #fec63e;
+  border-width: 4px;
+  border-style: solid;
+  outline: none;
+  width: 100%;
+  height: 160px;
+  background: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-color: #fec63e;
+  color: #fec63e;
+  background-color: black;
+}
+
+.btn:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.dados {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 70px;
+}
+
+.dados h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fec63e;
+}
+
+.dados span {
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dados .ultimo {
+  margin-bottom: 20px;
+}
+
+.orcamento ul li {
+  font-size: 14px;
+  padding: 12px 0;
+}
+
+.orcamento ul li:nth-child(odd) {
+  background-color: #1d1d1d;
+}

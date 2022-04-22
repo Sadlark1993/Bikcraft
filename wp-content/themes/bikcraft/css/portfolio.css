@@ -1,0 +1,30 @@
+/*Portfolio*/
+
+.portfolio-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/bg-portfolio.jpg");
+}
+
+/*Quote*/
+
+.quote-clientes {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.quote-clientes p {
+  margin: 0;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.quote-clientes cite {
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  font-style: normal;
+  margin-bottom: 40px;
+}

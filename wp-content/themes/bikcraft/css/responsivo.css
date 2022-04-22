@@ -1,0 +1,170 @@
+/*Responsivo*/
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Qualidade*/
+  .qualidade:after {
+    right: 52px;
+  }
+
+  .qualidade_lista li {
+    text-align: center;
+    padding: 0px;
+  }
+
+  /*Footer*/
+
+  .footer_redes ul li a {
+    padding: 6px;
+  }
+
+  .footer_redes ul li img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /*Produtos*/
+
+  .bloco1 h2 {
+    top: 90px;
+    left: 160px;
+  }
+
+  .bloco2 {
+    height: 270px;
+    padding-top: 98px;
+  }
+
+  .bloco2 img {
+    position: relative;
+    top: -30px;
+  }
+
+  .bloco4 {
+    height: 230px;
+  }
+
+  .bloco4 p {
+    font-size: 14px;
+    margin: 10px 20px;
+  }
+
+  .bloco4 ul li {
+    width: 180.5px;
+  }
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+  /*header*/
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+  .header img {
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid #000;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: white;
+  }
+
+  /*Introducao*/
+  .introducao {
+    margin-top: 0;
+    padding-top: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/smartphone/fotoApresSmart.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introducao h1 {
+    font-size: 36px;
+  }
+
+  /*Introducao Interna*/
+
+  .introducao_interna {
+    margin-top: 0;
+  }
+
+  /*Sobre*/
+  .sobre_detalhes .historia {
+    padding-right: 0;
+  }
+
+  .sobre_detalhes .historia p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sobre_detalhes .valores ul li {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /*Call*/
+
+  .call {
+    padding-top: 10px;
+  }
+  /*Qualidade*/
+  .qualidade:after {
+    display: none;
+  }
+
+  /*Produtos*/
+
+  .bloco1 h2 {
+    top: 50px;
+    left: 70px;
+  }
+
+  .bloco2 {
+    height: 270px;
+    padding-top: 98px;
+  }
+
+  .bloco2 img {
+    position: relative;
+    top: -30px;
+  }
+
+  .bloco4 {
+    height: 250px;
+  }
+
+  .bloco4 p {
+    font-size: 14px;
+    margin: 0px 10px;
+    padding-top: 10px;
+  }
+
+  .bloco4 ul {
+    bottom: 20px;
+  }
+
+  .bloco4 ul li {
+    width: 148.5px;
+  }
+
+  /*Orcamento*/
+  .dados {
+    padding-left: 0px;
+  }
+}
